@@ -1,0 +1,119 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgba(67, 68, 85, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+.link-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.link-nav {
+  color: rgba(46, 47, 66, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.link-address {
+  color: rgba(67, 68, 85, 1);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.contacts {
+  font-style: normal;
+}
+ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.link-nav:hover,
+.link-nav:focus {
+  color: #404bbf;
+}
+.link-address:hover,
+.link-address:focus {
+  color: #404bbf;
+}
+.button-service {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(77, 90, 229, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button-service:hover,
+.button-service:focus {
+  background-color: #404bbf;
+}
+.first-section {
+  background-color: rgba(46, 47, 66, 1);
+}
+.first-title {
+  color: rgba(255, 255, 255, 1);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.third-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(67, 68, 85, 1);
+}
+.second-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.basement {
+  background: rgba(46, 47, 66, 1);
+}
+.link-studio-header {
+  color: #2e2f42;
+}
+.link-studio-footer {
+  color: #f4f4fd;
+}
+
+.text-footer {
+  color: rgba(244, 244, 253, 1);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.third-section {
+  background-color: rgba(244, 244, 253, 1);
+}
+.photo-section {
+  background-color: #ffffff;
+}
