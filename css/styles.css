@@ -1,8 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: rgba(67, 68, 85, 1);
   background-color: rgba(255, 255, 255, 1);
+  width: 1440px;
+  height: 3300px;
+  margin: 0;
 }
+
 .link-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -12,7 +22,11 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
+  margin-left: 156px;
+  margin-top: 25.5px;
+  margin-bottom: 25.5px;
 }
+
 .link-nav {
   color: rgba(46, 47, 66, 1);
   font-size: 16px;
@@ -21,6 +35,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
 .link-address {
   color: rgba(67, 68, 85, 1);
   font-size: 16px;
@@ -28,22 +43,28 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
 .contacts {
   font-style: normal;
+  display: flex;
 }
+
 ul,
 a {
   list-style-type: none;
   text-decoration: none;
 }
+
 .link-nav:hover,
 .link-nav:focus {
   color: #404bbf;
 }
+
 .link-address:hover,
 .link-address:focus {
   color: #404bbf;
 }
+
 .button-service {
   font-family: "Roboto", sans-serif;
   background-color: rgba(77, 90, 229, 1);
@@ -53,14 +74,27 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  margin-left: 636px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
 .button-service:hover,
 .button-service:focus {
   background-color: #404bbf;
 }
+
 .first-section {
   background-color: rgba(46, 47, 66, 1);
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  gap: 48px;
 }
+
 .first-title {
   color: rgba(255, 255, 255, 1);
   font-size: 56px;
@@ -68,7 +102,12 @@ a {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  width: 496px;
+  height: 120px;
+  margin-left: 472px;
+  margin-top: 188px;
 }
+
 .third-title {
   color: #2e2f42;
   font-size: 20px;
@@ -77,6 +116,7 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
 .text {
   font-size: 16px;
   font-weight: 400;
@@ -85,6 +125,7 @@ a {
   text-align: left;
   color: rgba(67, 68, 85, 1);
 }
+
 .second-title {
   font-size: 36px;
   font-weight: 700;
@@ -94,12 +135,19 @@ a {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
 .basement {
   background: rgba(46, 47, 66, 1);
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 312px;
 }
+
 .link-studio-header {
   color: #2e2f42;
 }
+
 .link-studio-footer {
   color: #f4f4fd;
 }
@@ -111,9 +159,118 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
 .third-section {
   background-color: rgba(244, 244, 253, 1);
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 732px;
+  padding-top: 120px;
 }
+
 .photo-section {
   background-color: #ffffff;
+  width: 264px;
+  height: 348px;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.container {
+  display: flex;
+}
+.fourth-section {
+  display: flex;
+  flex-direction: column;
+}
+.second-section {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+  background-color: #fff;
+}
+.set-nav {
+  display: flex;
+  width: 261px;
+  height: 24px;
+  gap: 40px;
+  margin-left: 76px;
+  margin-top: 24px;
+}
+
+.contacts-address {
+  display: flex;
+  margin-left: 332px;
+  gap: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.navigation {
+  display: flex;
+}
+#hid {
+  display: none;
+}
+.second-section {
+  width: 1440px;
+  height: 344px;
+  flex-shrink: 0;
+}
+.strategy {
+  width: 1128px;
+  height: 104px;
+  gap: 24px;
+  margin-left: 156px;
+  margin-top: 120px;
+}
+.sec {
+  width: 264px;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.our-team {
+  display: flex;
+  gap: 24px;
+  margin-left: 156px;
+}
+.team {
+  margin-left: 639px;
+  margin-bottom: 72px;
+}
+
+.team-second {
+  text-align: center;
+}
+.ui {
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #ffffff;
+}
+.ourteam {
+  padding-bottom: 32px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
