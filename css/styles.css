@@ -71,7 +71,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  margin-left: 636px;
+  margin: 0 auto;
   padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -236,17 +236,19 @@ img {
 }
 .portfolio {
   display: flex;
-  flex-direction: column;
-  gap: 48px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  max-width: 1128px;
 }
 .section-four {
   display: flex;
   flex-direction: column;
-  margin-top: 120px;
-  margin-left: 156px;
+  margin: 120px 156px;
   margin-right: 156px;
   gap: 72px;
   margin-bottom: 120px;
+  flex-shrink: 0;
 }
 .portfolio-img {
   display: flex;
@@ -258,6 +260,7 @@ img {
 }
 .border {
   border: 1px solid #e7e9fc;
+  max-width: 360px;
 }
 .item {
   display: flex;
@@ -289,7 +292,7 @@ header {
   padding-top: 24px;
   padding-bottom: 24px;
   padding-left: 156px;
-  gap: 332px; */
+  gap: 332px;
 }
 .navigation {
   gap: 76px;
