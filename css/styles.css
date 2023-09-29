@@ -21,7 +21,8 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
-  margin-top: 0;
+  /* margin-top: 0; */
+  margin-right: 76px;
 }
 
 .link-nav {
@@ -286,20 +287,27 @@ img {
 .nav {
   display: flex;
   flex-direction: row;
+  /* gap: 76px; */
+  align-items: center;
 }
 
-header {
-  padding-top: 24px;
+.header {
+  /* padding-top: 24px;
   padding-bottom: 24px;
-  padding-left: 156px;
-  gap: 332px;
+  padding-left: 156px; */
+  /* gap: 332px; */
+  border-bottom: 1px solid #e7e9fc;
+  background-color: #fff;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-.navigation {
-  gap: 76px;
-}
+/* .navigation {
+} */
 .nav-ul {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .address {
   margin-left: 332px;
