@@ -146,6 +146,7 @@ a {
   flex-direction: column;
   width: 1440px;
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .link-studio-header {
@@ -289,9 +290,6 @@ img {
 .end {
   display: flex;
   flex-direction: column;
-  gap: 17.5px;
-  padding-top: 101.5px;
-  padding-left: 156px;
 }
 .end-footer {
   width: 264px;
@@ -336,4 +334,8 @@ img {
 .fourth-container {
   display: flex;
   flex-direction: column;
+}
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
