@@ -71,6 +71,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
+  /* padding: 24px 0; */
 }
 
 .nav {
@@ -167,11 +168,14 @@ img {
 
 .visually-hidden {
   position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  /* Зробити елемент читабельним для екрану читання */
   width: 1px;
   height: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-  white-space: nowrap;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }
 .strategy {
   display: flex;
