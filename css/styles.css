@@ -66,7 +66,7 @@ img {
   text-align: left;
   text-transform: uppercase;
   display: inline-block;
-  /* margin-right: 76px; */
+  margin-right: 76px;
 }
 
 .link-nav {
@@ -84,7 +84,7 @@ img {
 .nav {
   display: flex;
   align-items: center;
-  gap: 76px;
+  /* gap: 76px; */
 }
 
 .card-items {
