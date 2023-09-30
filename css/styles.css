@@ -76,7 +76,6 @@ img {
 
 .nav {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -84,6 +83,7 @@ img {
   display: flex;
   gap: 40px;
   padding: 24px 0;
+  align-items: center;
 }
 
 .address {
@@ -167,16 +167,14 @@ img {
 }
 
 .visually-hidden {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  /* Зробити елемент читабельним для екрану читання */
-  width: 1px;
+  position: absolute !important;
   height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
 }
+
 .strategy {
   display: flex;
   gap: 24px;
@@ -238,7 +236,7 @@ img {
 }
 
 .photo-man {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
@@ -304,6 +302,7 @@ img {
   gap: 8px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 /* =================================== footer ==================================== */
