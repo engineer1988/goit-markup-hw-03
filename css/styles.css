@@ -320,7 +320,9 @@ img {
 
 .logo-footer {
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 17.5px;
+  margin-right: 0;
+  /* padding: 0; */
 }
 
 .link-studio-footer {
@@ -333,6 +335,11 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
+  /* text-align: left; */
   width: 264px;
+  /* margin-top: 140px; */
+}
+.end {
+  display: flex;
+  flex-direction: column;
 }
