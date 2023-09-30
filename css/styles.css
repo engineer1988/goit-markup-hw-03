@@ -127,11 +127,6 @@ img {
   max-width: 496px;
 }
 
-.big-title {
-  display: flex;
-  align-items: center;
-}
-
 .hero-section {
   display: flex;
   flex-direction: column;
