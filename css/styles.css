@@ -241,7 +241,8 @@ img {
 .third-photo {
   display: flex;
   gap: 24px;
-  margin-left: 156px;
+  /* margin-left: 156px; */
+  justify-content: center;
 }
 
 .photo-man {
