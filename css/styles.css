@@ -124,10 +124,10 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 .big-title {
-  max-width: 496px;
   display: flex;
   align-items: center;
 }
