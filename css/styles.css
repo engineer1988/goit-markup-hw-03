@@ -12,9 +12,8 @@ body {
   margin: 0;
 }
 
-ul,
 a {
-  list-style-type: none;
+  /* list-style-type: none; */
   text-decoration: none;
 }
 
@@ -27,7 +26,11 @@ p {
 
 ul {
   margin: 0;
-  padding-left: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
 }
 
 img {
@@ -73,9 +76,9 @@ img {
   text-align: left;
   /* padding: 24px 0; */
 }
-.link-header {
+/* .link-header {
   padding: 24px 0;
-}
+} */
 .nav {
   display: flex;
   align-items: center;
