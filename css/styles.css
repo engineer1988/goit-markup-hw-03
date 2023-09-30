@@ -46,7 +46,7 @@ img {
   background-color: #fff;
   /* margin: 0 auto;
   padding: 0 15px; */
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .container {
@@ -121,10 +121,9 @@ img {
   color: #2e2f42;
 }
 
-/* .item {
-  padding: 0;
-  margin: 0;
-} */
+.item {
+  padding: 24px 0;
+}
 .header-container {
   /* gap: 332px; */
   align-items: center;
